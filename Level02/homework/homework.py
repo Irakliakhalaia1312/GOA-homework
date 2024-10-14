@@ -232,3 +232,4 @@ forward(195)
 
 
 exitonclick()
+print("day 2 homework")
