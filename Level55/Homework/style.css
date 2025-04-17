@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #dbe4e8;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .image-section {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .form-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 40px;
+  }
+  
+  .form-box {
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .forgot {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  .forgot a {
+    color: #606dff;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0a5bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .signup {
+    text-align: center;
+  }
+  
+  .signup a {
+    color: #0a5bff;
+    text-decoration: none;
+  }

@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .tour-section {
+    width: 100%; /* სექცია იკავებს გვერდის მთელ სიგანეს */
+    height: 500px; /* სექციის სიმაღლე */
+    border: 2px solid #3a3a3a; /* რუკის ჩარჩო */
+    
+    /* ფონის სურათი */
+    background-image: url('background.jpg');
+  
+    /* background-repeat:
+       - repeat: იმეორებს სურათს როგორც x (ჰორიზონტალურად), ისე y (ვერტიკალურად)
+       - no-repeat: არ იმეორებს სურათს
+       - repeat-x: იმეორებს მხოლოდ ჰორიზონტალურად
+       - repeat-y: იმეორებს მხოლოდ ვერტიკალურად */
+    background-repeat: no-repeat;
+  
+    /* background-position:
+       - განსაზღვრავს, თუ სად უნდა გამოჩნდეს ფონის სურათი
+       - მნიშვნელობები: center, top left, bottom right, 50% 50%, 20px 30px და ა.შ.
+       - პირველი მნიშვნელობა — x ღერძზე მდებარეობა
+       - მეორე — y ღერძზე მდებარეობა */
+    background-position: center center;
+  
+    /* background-size:
+       - contain: აკრავს მთლიან შიგთავსს ისე, რომ არაფერი მოიჭრას
+       - cover: ფარავს მთლიან ბლოკს, შესაძლოა მოიჭრას
+       - auto: იყენებს ნატურალურ ზომას
+       - 100% 100%: სიგანე და სიმაღლე სრულად */
+    background-size: cover;
+  
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .tour-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .tour-section p {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  
+  .tour-section button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #f57c00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .tour-section img {
+    margin-top: 30px;
+    width: 60px;
+  }
