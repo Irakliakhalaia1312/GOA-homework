@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #231a2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mze{
+    animation-name: bzriali;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    box-shadow: inset 0px 0px 100px yellow;
+
+    border-radius: 50%;   
+}
+.mze-sxivebi{
+    position: relative;
+    box-shadow: 0px -20px 100px yellow;
+    border-radius: 50%;
+    width: 500px;
+    
+}
+
+@keyframes bzriali {
+    100%{
+        transform: rotate(360deg);
+    }
+}
